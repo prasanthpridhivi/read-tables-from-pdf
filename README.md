@@ -7,9 +7,9 @@ Requirements:
 3. The goal was to have an excel file with all the table information so that we can sort by columns
 
 Implementation:
-1. We use python library 'tabulate'; it has very good apis to read pdf tables
-2. 'tabulate' lets you specify which page/pages in the pdf you want to read the tables
-3. 'tabulate' reads the tables and stores it as a list
+1. We use python library 'tabula' (pip install tabula-py); it has very good apis to read pdf tables
+2. 'tabula' lets you specify which page/pages in the pdf you want to read the tables
+3. 'tabula' reads the tables and stores it as a list
 4. Once we get the list, we store the list into 'pandas' dataframe
 5. Then we write the dataframe to a csv file
 
